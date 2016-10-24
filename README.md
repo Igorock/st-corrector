@@ -10,8 +10,8 @@ Usage
 
 Call to
 
-http://localhost:8060/prompt?word=<word>
+http://localhost:8060/prompt?word=word_with_typo
 
 will return
 
-{"word": <sugggested word>, success: <true/false>, error: <an error if failed>}
+{"word": "sugggested word", success: "true/false", error: "an error if failed>"}
