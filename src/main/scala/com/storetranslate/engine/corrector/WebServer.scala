@@ -13,7 +13,7 @@ import scala.io.StdIn
 object WebServer {
   def main(args: Array[String]) {
     val PORT = 8060
-    val HOST = "localhost"
+    val HOST = "0.0.0.0"
 
     implicit val system = ActorSystem()
     implicit val materializer = ActorMaterializer()
